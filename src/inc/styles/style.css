@@ -31,6 +31,7 @@
 	--brand-input-border-radius:5px;
 	--brand-button-3-border-radius:5px;
 	--brand-small-text-2:0.7rem;
+	--brand-yellow-color: #ffc107;
 }
 
 #spinner {
@@ -92,10 +93,30 @@
 	width:100%;
 	
 }
+
+.brand-btn-yellow{
+	border-radius: 30px;
+	background: var(--brand-yellow-color);
+	transition: 0.9s;
+	padding: 15px;
+	text-align: center;
+	text-transform: capitalize;
+	border: none;
+	outline: none;
+	width: 75vw;
+	color: #000;
+}
+
 .brand-btn:hover {
 	background: var(--brand-secondary-color);
 	cursor: pointer;
 }
+
+.brand-btn-yellow:hover {
+	background: #e0a800;
+	cursor: pointer;
+}
+
 .brand-gradient{
     background:var(--brand-gradient-color);
 }
